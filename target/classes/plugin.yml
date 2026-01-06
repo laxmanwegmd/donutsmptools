@@ -1,0 +1,21 @@
+name: Laxstools
+version: 1.0
+author: laxManwe
+api-version: '1.21'
+main: xyz.laxmanwe.laxstools.Laxstools
+commands:
+  laxpick:
+    description: Gives Deagon Pickaxe
+    permission: laxstools.admin
+  laxbalta:
+    description: Gives Deagon Axe
+    permission: laxstools.admin
+  laxkurek:
+    description: Gives Deagon Shovel
+    permission: laxstools.admin
+permissions:
+  laxstools.admin:
+    description: Admin permission for Laxstools
+    default: op
+
+website: "github.com/laxmanwegmd"
